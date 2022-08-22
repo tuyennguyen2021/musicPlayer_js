@@ -1,0 +1,51 @@
+let allMusic = [
+  {
+    id: "m1",
+    name: "Circus",
+    artist: "Britney Spears",
+    img: "/Circus.png",
+    src: "/Circus-Britney-Spears.mp3",
+  },
+  {
+    id: "m2",
+    name: "Bad Bromance",
+    artist: "Lady GaGa",
+    img: "/LadyGaGaBadRomance.png",
+    src: "/Bad-Romance-Lady-Gaga.mp3",
+  },
+  {
+    id: "m3",
+    name: "Three",
+    artist: "Britney Spears",
+    img: "/Britney3.png",
+    src: "/3-Britney-Spears.mp3",
+  },
+  {
+    id: "m4",
+    name: "Always Remember Us This Way",
+    artist: "Lady GaGa",
+    img: "/alway.jpeg",
+    src: "/Always-Remember-Us-This-Way-Lady-Gaga.mp3",
+  },
+  {
+    id: "m5",
+    name: "Do Somethin",
+    artist: "Britney Spears",
+    img: "/Do_Somethin.png",
+    src: "/Do-Somethin-Britney-Spears.mp3",
+  },
+  {
+    id: "m6",
+    name: "Hello",
+    artist: "Adele",
+    img: "/hello.webp",
+    src: "/Hello-Adele.mp3",
+  },
+  {
+    id: "m7",
+    name: "Một Ngàn Nỗi Đau",
+    artist: "Văn Mai Hương",
+    img: "/MNND.jpeg",
+    src: "/Mot-Ngan-Noi-Dau_Van-Mai-Huong.mp3",
+  },
+];

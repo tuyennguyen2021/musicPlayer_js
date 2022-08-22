@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tyn Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top__bar">
+            <i class="material-icons">
+                expand_more
+            </i>
+            <span>Now playing</span>
+            <i class="material-icons">more_vert</i>
+        </div>
+        <div class="img-area">
+            <img src="./images/blackout.webp" alt="img">
+        </div>
+        <div class="song-detail">
+            <div class="heart">
+                <i class="material-icons">favorite_border</i>
+            </div>
+            <div class="song-info">
+                <h4 class="name">Gimme More</h4>
+                <h5 class="artist">Britney Spears</h5>
+            </div>
+            <div id="dark-mode">
+                <i class="material-icons">dark_mode</i>
+            </div>
+            <!-- <i class="fa-solid fa-sun"></i> -->
+            <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="process-area">
+            <div class="process-bar">
+                <span></span>
+            </div>
+            <div class="process-timer">
+                <div class="current">0:00</div>
+                <div class="duration"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <i id="repeat-icon" class="material-icons">repeat</i>
+            <i id="prev-icon" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <span id="play-icon" class="material-icons">play_arrow</span>
+            </div>
+            <i id="next-icon" class="material-icons">skip_next</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="material-icons">music_note</i>
+                    <span>Music List</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+            </ul>
+        </div>
+
+    </div>
+    <script src="./music-list.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
